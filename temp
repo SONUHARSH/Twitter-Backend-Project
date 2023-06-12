@@ -1,0 +1,4 @@
+atlascloud mongoDB ---> compas import --> cluster --->database --->schema ---> model --->collection --> document
+
+
+mongodb+srv://SK:mongo@cluster0.gwigoss.mongodb.net/
