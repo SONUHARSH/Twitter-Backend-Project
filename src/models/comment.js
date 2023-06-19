@@ -7,9 +7,7 @@ const commentSchema = new mongoose.Schema({
     },
     user:{
         type:mongoose.Schema.Types.ObjectId
-    }, 
-    comment: {
-        type: String
+   
     },
     onModel:{
         type: String,
