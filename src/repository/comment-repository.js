@@ -1,4 +1,4 @@
-import Comment from "../models/comment";
+import Comment from "../models/comment.js";
 import CrudRepository from "./crud-repository.js";
 
 class CommentRepository extends CrudRepository {
@@ -6,3 +6,5 @@ class CommentRepository extends CrudRepository {
         super(Comment)
     }
 }
+
+export default CommentRepository;

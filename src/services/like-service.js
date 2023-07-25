@@ -21,7 +21,7 @@ class LikeService {
         const exists = await this.likeRepository.findByUserAndLikeable({
             user:userId,
             onModel: modelType,
-            likeable:modelId
+            likeable:modelId 
         })
         console.log("alreadypresent",exists)
         let isAdded;

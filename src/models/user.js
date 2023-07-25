@@ -17,7 +17,8 @@ const userSchema = new mongoose.Schema({
     },
     tweets: [
         {
-            type: mongoose.Schema.Types.ObjectId
+            type: mongoose.Schema.Types.ObjectId,
+            type: String
         }
     ],
     name:{        
